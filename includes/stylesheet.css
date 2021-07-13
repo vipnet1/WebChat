@@ -1,0 +1,101 @@
+
+#theForm {
+color: white;
+background-color: #aabbcc;
+width: 150px;
+padding: 10px;
+margin: 50px;
+border-style: solid;
+border-width: 3px;
+border-color: #4E4E50;
+}
+
+#nicknameLbl {
+    color: white;
+}
+
+button.postButton {
+    margin: 25px 20px 20px 55px;
+    padding: 4px 10px;
+    font-size: 30px;
+    color: orange;
+    background-color: royalblue;
+    border-radius: 5px;
+    border-width: 0px;
+
+    transition: background-color 0.75s;
+}
+
+button.postButton:hover{
+    background: rgba(65, 105, 225, 0.205);
+    transition: 0.75s;
+}
+
+button.postButton:hover span{
+    left: 100%;
+    transition: 1s;
+}
+
+#divNickname {
+    margin: 20px;
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+    border: aqua dotted 3px;
+}
+
+#divNickname:hover {
+scale: 110%;
+border-radius: 50px;
+transition: 1s;
+}
+
+#submitButton {
+    padding: 3px;
+    margin-top: 15px;
+}
+
+#forumArea {
+    float: right;
+    resize: none;
+}
+
+body {
+    background-color: #1A1A1D;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    position: fixed;
+}
+
+#textArea, #forumArea{
+    background-color: blue;
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+    transition: background-color 1s;
+}
+
+#textArea {
+    box-shadow: 10px 10px 20px gray;
+}
+
+#forumArea {
+    box-shadow: inset -10px 5px 20px gray;
+}
+
+#forumArea:hover, #textArea:hover {
+    background-color: rgba(0, 0, 255, 0.178);
+    transition: background-color 1s;
+}
+
+span.author {
+    background-color: red;
+}
+
+p {
+    color: white;
+}
