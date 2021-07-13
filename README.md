@@ -6,7 +6,7 @@ It was build using HTML,CSS,Javascript,PHP and MySQL. Server was run via Xampp.
 The php files in the root are for the UI. The files in 'includes' directory for communication with the database.
 
 
-Database
+Database - 2 tables
 
 TABLE: usr
 STORES: username, password
